@@ -155,6 +155,10 @@ body.normal .sender[type=myself]:after {
 
 /* Icons/logos for some popular apps/channels */
 
+html[channelname="#MediaCore"].normal {
+	background: #202020 url('Limelight/mediacore.png') no-repeat fixed bottom right;
+}
+
 html[channelname="#limechat"].normal {
 	background: #202020 url('Limelight/limechat.png') no-repeat fixed bottom right;
 }
